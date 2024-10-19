@@ -1,0 +1,317 @@
+*{
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+
+/* Header */
+
+.header{
+  color: #00fefb;
+  background-color: black;
+}
+
+.menu, .navbar{
+  display: flex;
+}
+
+.menu{
+  border-bottom: 1px solid #00fefb;
+  background-color: rgb(223, 223, 223);
+  color: black;
+  font-weight: bold;
+  padding-left: 5%;
+}
+
+.navbar{
+  border: 1px solid #00fefb;
+  padding: 1rem;
+  background: linear-gradient(160deg, rgb(223, 223, 223), black, rgb(223, 223, 223) );
+}
+
+.menu li, .navbar li{
+  list-style: none;
+  padding: .5rem 2rem .5rem;
+}
+
+.menu li{
+  font-size: .8rem;
+  font-style: italic;
+  background-color: rgb(223, 223, 223);
+  
+}
+
+.menu li a{
+  background-color: rgb(223, 223, 223);
+  color: #00aaa7;
+}
+
+.menu li a:hover{
+  color: red;
+}
+
+#font-icon{
+  color: black;
+}
+
+.navbar li {
+  margin-left: 12%;
+  font-weight: bolder;
+  padding: 7px 12px;
+}
+
+.navbar li a{
+  padding: 7px 12px;
+}
+
+.navbar li a:hover{
+  background-color: #00fefb;
+  color: black;
+  border-radius: 5px;
+}
+
+.logo{
+  height: 7rem;
+  width: 9rem;
+  margin-left: 10%;
+}
+
+.break{
+  background-color: rgb(223, 223, 223);
+  padding: 1rem;
+}
+
+
+.reg-form, .login-form, .pass-reset-form{
+  margin: 3rem auto;
+  width: 340px;
+  border: 1px solid #00fefb;
+  color: #00fefb;
+  box-shadow: 5px 2px 5px 2px gray;
+  border-radius: 10px;
+  padding: 1rem 2rem 1.5rem;
+  font-size: 14px;
+  position: relative;
+  background-color: black;
+}
+
+.login-form{
+  height: 50vh;
+}
+
+.myinput {
+  display: block;
+  margin: 8px auto;
+  padding: 7px 60px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #b0fffe;
+}
+
+label {
+  margin-left: 28px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+#pass-eye,
+#confpass-eye {
+  position: absolute;
+  font-size: 12px;
+  right: 4.2rem;
+  cursor: pointer;
+}
+
+#pass-eye {
+  bottom: 13.4rem;
+}
+
+#confpass-eye {
+  bottom: 9.6rem;
+}
+
+.login-form #pass-eye{
+bottom: 10.1rem;
+}
+
+.regbtn, .loginbtn {
+  
+  margin: 16px 43% 12px 43%;
+  padding: 3px 12px;
+  color: white;
+  border-radius: 5px;
+  background-color: rgb(77, 77, 77);
+  border: none;
+}
+
+.regbtn:hover,
+.loginbtn:hover{
+  background-color: #00fefb;
+  color: black;
+}
+
+p{
+  font-size: 12px;
+  margin: 12px 25%;
+  cursor: pointer;
+  font-style: italic;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: #00fefb;
+}
+
+/* Header */
+
+.sidebar{
+  width: 17.8%;
+  border-left: 5px solid #00fefb;
+  border-right: 5px solid #00fefb;
+  margin: 2rem 3rem;
+  display: inline-block;
+  padding: .5rem 0;
+  border-radius: 10px;
+}
+
+.sidebar li, .sidebar li a{
+  list-style: none;
+  padding: 10px 8px;
+  background-color: grey;
+  color: #fff;
+  text-align: start;
+}
+
+.sidebar li a:hover{
+  color: #00fefb;
+}
+
+.main{
+  width: 100%;
+  display: inline-block;
+}
+
+
+/* src/SupportPage.css */
+
+
+
+.support-page {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.support-form .form-group {
+  margin-bottom: 15px;
+}
+
+.support-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.support-form .form-group input,
+.support-form .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.support-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.support-form button:hover {
+  background-color: #0056b3;
+}
+
+.faq {
+  margin-top: 30px;
+}
+
+.faq h3 {
+  margin-bottom: 10px;
+}
+
+.faq p {
+  margin-bottom: 20px;
+}
+
+/* src/SupportPage.css */
+
+/* API CSS */
+
+
+
+.myimg, #api-text{
+  width: 15rem;
+  font-size: 14px;
+  text-align: left;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+.col{
+  width: 15rem;
+  height: 14rem;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.row{
+
+  margin: 3%;
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+}
+
+
+
+/* API CSS */
+
+/* Footer */
+
+
+
